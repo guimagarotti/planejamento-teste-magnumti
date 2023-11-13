@@ -81,32 +81,63 @@ Ainda não há definição de link para compartilhamento.
 Utilização de imagens e descrição do qeu foi testado.
 
 ## Banco de Dados 🗂️
-Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por armazenar as informações referentes à base de dados de produtos pertencentes ao estoque e níveis de usuário registrados.
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Java](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=java)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME)
 
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+## Resolvendo Problemas
+<p>Alguns problemas gerados durante o desenvolvimento do projeto, e o modo pelo qual como foram resolvidos definitivamente:</p>
 
-## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
+⚠️ <b>Integração com o Banco de Dados:</b>
+<ul>
+  <li><b>Problema:</b> dificuldades na configuração e integração com o banco de dados.</li>
+  <li><b>Solução:</b> revisão da documentação do banco de dados, verificação das configurações de conexão e uso de ferramentas de diagnóstico para identificar e corrigir erros de conexão.</li>
+</ul>
 
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
+⚠️ <b>Conflitos de Dependências:</b>
+<ul>
+  <li><b>Problema:</b> conflitos entre diferentes versões de bibliotecas e dependências.</li>
+  <li><b>Solução:</b> atualização para versões compatíveis das bibliotecas, revisão da documentação das dependências para garantir compatibilidade e uso de ferramentas de gerenciamento de dependências, como o npm.</li>
+</ul>
 
-📝 Tarefa 1
+⚠️ <b>Colaboração na Equipe:</b>
+<ul>
+  <li><b>Problema:</b> Dificuldades de colaboração entre membros da equipe.</li>
+  <li><b>Solução:</b> Implementação de boas práticas de controle de versão (Git), uso de plataformas de colaboração como GitHub, e comunicação efetiva entre os membros da equipe.</li>
+</ul>
 
-📝 Tarefa 2
+## Recursos de inseridos 🧰 (FALTA IMAGENS)
+<p>Tarefas/funcionalidades que ainda precisam ser implementadas na aplicação:</p>
 
-📝 Tarefa 3
+📝 <b>Autorização e Controle de Acesso:</b> adicionar diferentes níveis de permissões para usuários, como administradores e funcionários, e restrinjri o acesso a determinadas funcionalidades com base nessas permissões;
+
+📝 <b>Histórico/Log de Alterações no Estoque:</b> registrar um histórico de todas as alterações no estoque, incluindo quem fez a alteração e quando;
+
+📝 <b>Aprimoramento da Interface do Usuário (UI) e Experiência do Usuário (UX):</b> trabalhar na melhoria da aparência e usabilidade da interface do usuário para tornar a experiência do usuário mais agradável e eficiente.
+
+📝 <b>Documentação Detalhada:</b> elaborar documentação abrangente que explique a estrutura do código, a arquitetura do sistema, os processos de instalação e configuração, além de fornecer guias para os usuários.
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+<p>O time de desenvolvedores do projeto é composto por:</p>
+<ul>
+  <li>Antônio Tadeu Diniz Reche;</li>
+  <li>Guilherme Cambi Magarotti;</li>
+  <li>João Gabriel Garcia Lourenço;</li>
+  <li>Marcus Vinicius Takeyasu de Jesus;</li>
+  <li>Rodrigo Antônio de Oliveira Lopes.</li>
+</ul>
 
 ## Licença
-The MIT License (MIT)
+<p>Este projeto é licenciado sob a Licença MIT, permitindo o uso, modificação e distribuição do código, sujeito às condições estabelecidas na licença.</p>
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ 2023 - Planejamento de Testes - Gerenciador de Estoque Magnum TI

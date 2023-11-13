@@ -1,6 +1,6 @@
-# Titulo ou Arte do Projeto
+# Planejamento de Testes - Gerenciador de Estoque Magnum TI  
 ## Versão: 1.0 
-## Status do Projeto: ✔️ Concluído ⚠️ Espera ❌ Cancelado
+## Status do Projeto: ⚠️ Espera
 
 ## Tópicos
 🔹 Descrição do projeto 
@@ -29,39 +29,59 @@
 
 🔹 Informações Extras
 
-
-...
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
-
 ## Descrição do projeto
-Descrição breve do projeto compondo um paragrafo ou dois.
+<p align="justify"> O Sistema de Gerenciamento de Estoque para Petshops é uma solução abrangente projetada para simplificar e aprimorar o controle eficiente do estoque em estabelecimentos voltados para o universo pet. Este sistema oferece uma plataforma intuitiva e funcional, desenvolvida para atender às necessidades específicas de lojas de produtos para animais, promovendo uma gestão eficaz dos produtos disponíveis.</p>
+<p align="justify">Entre nossos principais recursos, destacamos o oontrole de produtos, já que é possível cadastrar e gerenciar facilmente os produtos disponíveis na loja, incluindo informações detalhadas, como nome, categoria, preço e quantidade em estoque, a atualização do estoque, possibilitando registrar entradas e saídas de produtos, mantendo sempre atualizadas as informações sobre a disponibilidade de itens na loja, e o envio de alertas de estoque baixo, alertando através do recebimento de notificações automáticas quando os níveis de estoque atingirem um patamar mínimo predefinido, evitando assim a falta de produtos essenciais.</p>
 
 ## Funcionalidades ⚙️
-✔️ Funcionalidade 1
+✔️ <b>Controle de Produtos:</b> cadastre novos produtos, especificando nome, categoria, preço e quantidade disponível ou atualize informações de produtos existentes, como preço e detalhes descritivos;
 
-✔️ Funcionalidade 2
+✔️ <b>Atualização de Estoque:</b> registre entradas e saídas de produtos no estoque, incluindo a quantidade recebida ou venda realizada, possibilitando a monitoração de alterações no estoque em tempo real;
 
-✔️ Funcionalidade 3
+✔️ <b>Alertas de Estoque Baixo:</b> configure alertas automáticos para serem notificados quando os níveis de estoque atingirem um limite pré-definido, para que seja feito o recebimento de alertas e notificações no painel administrativo do próprio software;
 
-✔️ Funcionalidade 4
+✔️ <b>Personalização de Relatórios:</b> personalize relatórios de acordo com as necessidades específicas da loja, filtrando dados por período;
+
+✔️ <b>Segurança:</b> garanta a segurança dos dados sensíveis, atribuindo permissões de acesso para garantir que apenas usuários autorizados possam realizar alterações no sistema.
 
 ## Distribuição
-Link para teste da versão disponibilizada.
+Ainda não há definição de link para compartilhamento.
 
-## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+## Pré-requisitos ⚠️
+<ul>
+  <li>NPM (Node Package Manager);</li>
+  <li>Node.js v8.0.0 ou superior;</li>
+  <li>Banco de dados MySQL versão 8.0 ou superior;</li>
+  <li>Java 11 ou superior;</li>
+</ul>
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+### 1- Clone o repositório:
+   <code>git clone https://github.com/guimagarotti/planejamento-teste-magnumti.git</code>
+
+### 2- Navegue até o Diretório do Projeto:
+<p>Use o comando cd para entrar no diretório do projeto que foi clonado.</p>
+    <code>cd planejamento-teste-magnumti</code>
+
+### 3- Instale as Dependências:
+<p>Execute o comando npm install para instalar as dependências do projeto listadas no arquivo package.json.</p>
+    <code>npm install</code>
+    
+<p>Certifique-se também de que o Angular CLI (Command Line Interface) está instalado globalmente em seu sistema. Se não estiver instalado, você pode instalá-lo usando o seguinte comando:</p>
+    <code>npm install -g @angular/cli</code>
+
+### 4- Inicie o Servidor de Desenvolvimento:
+<p>Execute o comando ng serve para iniciar o servidor de desenvolvimento. Este comando compila o aplicativo e inicia um servidor local. Por padrão, a aplicação estará disponível em <b>http://localhost:4200/</b>.</p>
+    <code>ng serve</code>
+
+### 5- Acesse a Aplicação:
+<p>Abra seu navegador da web e vá para <b>http://localhost:4200/</b> para visualizar a aplicação Angular em execução.</p>
 
 ## Testes realizados
 Utilização de imagens e descrição do qeu foi testado.
 
 ## Banco de Dados 🗂️
+Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por
 Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
 
 ## Linguagens, dependencias e libs utilizadas 📚

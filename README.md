@@ -77,7 +77,7 @@ Ainda não há definição de link para compartilhamento.
 ### 5- Acesse a Aplicação:
 <p>Abra seu navegador da web e vá para <b>http://localhost:4200/</b> para visualizar a aplicação Angular em execução.</p>
 
-## Testes realizados
+## Testes realizados (FALTA FAZER)
 Utilização de imagens e descrição do qeu foi testado.
 
 ## Banco de Dados 🗂️

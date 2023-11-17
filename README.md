@@ -19,15 +19,11 @@
 
 🔹 Linguagens, dependências e libs utilizadas
 
-🔹 Novas Recursos
-
 🔹 Resolvendo problemas
 
-🔹 Recursos inseridos 
+🔹 Recursos inseridos
 
 🔹 Desenvolvedores/Contribuintes
-
-🔹 Informações Extras
 
 ## Descrição do projeto
 <p align="justify"> O Sistema de Gerenciamento de Estoque para Petshops é uma solução abrangente projetada para simplificar e aprimorar o controle eficiente do estoque em estabelecimentos voltados para o universo pet. Este sistema oferece uma plataforma intuitiva e funcional, desenvolvida para atender às necessidades específicas de lojas de produtos para animais, promovendo uma gestão eficaz dos produtos disponíveis.</p>
@@ -78,10 +74,16 @@ Ainda não há definição de link para compartilhamento.
 <p>Abra seu navegador da web e vá para <b>http://localhost:4200/</b> para visualizar a aplicação Angular em execução.</p>
 
 ## Testes realizados (FALTA FAZER)
-<p>Esta seção do README descreve os testes realizados durante o desenvolvimento do projeto. Os testes são uma parte crucial do ciclo de vida do software, garantindo que a aplicação atenda aos requisitos estabelecidos, funcione conforme esperado e mantenha a integridade das funcionalidades. Abaixo estão os principais aspectos que foram testados:</p>
-<p>Funcionalidades Principais:</p>
-<p>Testes abrangentes foram conduzidos para as funcionalidades principais da aplicação. Isso inclui a verificação da correta execução de tarefas fundamentais, como o registro de produtos, monitoramento de estoque, alertas automáticos e geração de relatórios estatísticos.</p>
-  Integração Front-End e Back-End: Garantimos que as interações entre o front-end (desenvolvido com Angular, HTML, CSS, Bootstrap, JavaScript e TypeScript) e o back-end (implementado em Java, utilizando MySQL como banco de dados) ocorram de maneira suave e eficiente. Testes foram realizados para verificar a comunicação adequada entre as camadas front-end e back-end da aplicação. Experiência do Usuário: Foi realizada uma avaliação minuciosa da experiência do usuário (UX), garantindo que a interface seja intuitiva, responsiva e forneça feedback adequado ao usuário. Testes de usabilidade foram conduzidos para identificar e corrigir possíveis pontos de confusão ou dificuldades de navegação. Segurança: Testes de segurança foram implementados para identificar e corrigir possíveis vulnerabilidades. Isso incluiu a validação adequada de entrada de dados, prevenção contra injeção de SQL e garantia de que as práticas de segurança recomendadas fossem seguidas em todas as partes da aplicação. Desempenho e Escalabilidade: Avaliamos o desempenho da aplicação para garantir uma resposta rápida e eficiente, mesmo em situações de carga elevada. Testes de escalabilidade foram conduzidos para assegurar que a aplicação seja capaz de lidar com um aumento significativo no número de usuários e dados. Compatibilidade entre Navegadores: Verificamos a compatibilidade da aplicação em diferentes navegadores web para garantir uma experiência consistente para todos os usuários. Testes foram realizados em navegadores populares, como Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. Ao relatar os resultados destes testes, buscamos oferecer uma visão abrangente do desempenho, confiabilidade e usabilidade da aplicação, garantindo que ela atenda ou supere as expectativas dos usuários finais.
+<p align="justify">Esta seção do README descreve os testes realizados durante o desenvolvimento do projeto. Os testes são uma parte crucial do ciclo de vida do software, garantindo que a aplicação atenda aos requisitos estabelecidos, funcione conforme esperado e mantenha a integridade das funcionalidades. Abaixo estão os principais aspectos que foram testados:</p>
+<h3>⚡ <b>Funcionalidades Principais:</b></h3>
+<p align="justify">Testes abrangentes foram conduzidos para as funcionalidades principais da aplicação. Isso inclui a verificação da correta execução de tarefas fundamentais, como o registro de produtos, monitoramento de estoque, alertas automáticos e geração de relatórios estatísticos.</p>
+
+<ul>
+  <li><b>Integração Front-End e Back-End:</b> Garantimos que as interações entre o front-end (desenvolvido com Angular, HTML, CSS, Bootstrap, JavaScript e TypeScript) e o back-end (implementado em Java, utilizando MySQL como banco de dados) ocorram de maneira suave e eficiente. Testes foram realizados para verificar a comunicação adequada entre as camadas front-end e back-end da aplicação;</li>
+  <li><b>Experiência do Usuário:</b> Foi realizada uma avaliação minuciosa da experiência do usuário (UX), garantindo que a interface seja intuitiva, responsiva e forneça feedback adequado ao usuário. Testes de usabilidade foram conduzidos para identificar e corrigir possíveis pontos de confusão ou dificuldades de navegação;</li>
+  <li><b>Segurança:</b> Testes de segurança foram implementados para identificar e corrigir possíveis vulnerabilidades. Isso incluiu a validação adequada de entrada de dados, prevenção contra injeção de SQL e garantia de que as práticas de segurança recomendadas fossem seguidas em todas as partes da aplicação;</li>
+  <li><b>Compatibilidade entre Navegadores:</b> Verificamos a compatibilidade da aplicação em diferentes navegadores web para garantir uma experiência consistente para todos os usuários. Testes foram realizados em navegadores populares, como Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. </li>
+</ul>
 
 ## Banco de Dados 🗂️
 Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por armazenar as informações referentes à base de dados de produtos pertencentes ao estoque e níveis de usuário registrados.
@@ -119,7 +121,7 @@ Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por a
   <li><b>Solução:</b> Implementação de boas práticas de controle de versão (Git), uso de plataformas de colaboração como GitHub, e comunicação efetiva entre os membros da equipe.</li>
 </ul>
 
-## Recursos de inseridos 🧰 (FALTA IMAGENS)
+## Recursos inseridos 🧰 (FALTA IMAGENS)
 <p>Tarefas/funcionalidades que ainda precisam ser implementadas na aplicação:</p>
 
 📝 <b>Autorização e Controle de Acesso:</b> adicionar diferentes níveis de permissões para usuários, como administradores e funcionários, e restrinjri o acesso a determinadas funcionalidades com base nessas permissões;

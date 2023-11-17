@@ -148,13 +148,13 @@ Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por a
 📝 <b>Autorização e Controle de Acesso:</b> adicionar diferentes níveis de permissões para usuários, como administradores e funcionários, e restringir o acesso a determinadas funcionalidades com base nessas permissões;
 
 <div align="center">
-  <img src="loginPage.png" width="950px" height="450px">
+  <img src="loginPage.png" width="950px" height="400px">
 </div>
 
 📝 <b>Histórico/Log de Alterações no Estoque:</b> registrar um histórico de todas as alterações no estoque, incluindo quem fez a alteração e quando;
 
 <div align="center">
-  <img src="estoquePage.png" width="550px" height="350px">
+  <img src="estoquePage.png" width="550px" height="400px">
 </div>
 
 📝 <b>Aprimoramento da Interface do Usuário (UI) e Experiência do Usuário (UX):</b> trabalhar na melhoria da aparência e usabilidade da interface do usuário para tornar a experiência do usuário mais agradável e eficiente.

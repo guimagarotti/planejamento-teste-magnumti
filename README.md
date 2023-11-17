@@ -73,7 +73,7 @@ Ainda não há definição de link para compartilhamento.
 ### 5- Acesse a Aplicação:
 <p>Abra seu navegador da web e vá para <b>http://localhost:4200/</b> para visualizar a aplicação Angular em execução.</p>
 
-## Testes realizados (FALTA FAZER)
+## Testes realizados
 <p align="justify">Esta seção do README descreve os testes realizados durante o desenvolvimento do projeto. Os testes são uma parte crucial do ciclo de vida do software, garantindo que a aplicação atenda aos requisitos estabelecidos, funcione conforme esperado e mantenha a integridade das funcionalidades. Abaixo estão os principais aspectos que foram testados:</p>
 <h3>⚡ <b>Funcionalidades Principais:</b></h3>
 <p align="justify">Testes abrangentes foram conduzidos para as funcionalidades principais da aplicação. Isso inclui a verificação da correta execução de tarefas fundamentais, como o registro de produtos, monitoramento de estoque, alertas automáticos e geração de relatórios estatísticos.</p>
@@ -83,6 +83,27 @@ Ainda não há definição de link para compartilhamento.
   <li><b>Experiência do Usuário:</b> Foi realizada uma avaliação minuciosa da experiência do usuário (UX), garantindo que a interface seja intuitiva, responsiva e forneça feedback adequado ao usuário. Testes de usabilidade foram conduzidos para identificar e corrigir possíveis pontos de confusão ou dificuldades de navegação;</li>
   <li><b>Segurança:</b> Testes de segurança foram implementados para identificar e corrigir possíveis vulnerabilidades. Isso incluiu a validação adequada de entrada de dados, prevenção contra injeção de SQL e garantia de que as práticas de segurança recomendadas fossem seguidas em todas as partes da aplicação;</li>
   <li><b>Compatibilidade entre Navegadores:</b> Verificamos a compatibilidade da aplicação em diferentes navegadores web para garantir uma experiência consistente para todos os usuários. Testes foram realizados em navegadores populares, como Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. </li>
+</ul>
+
+<h3>⚡ <b>Funcionalidades Tela de Login:</b></h3>
+<p align="justify">Testes abrangentes foram conduzidos para as funcionalidades da tela de login da aplicação. Isso inclui a verificação da correta execução das tarefas fundamentais e o resultado esperado.</p>
+
+<ul>
+  <li><b>Validação de Entrada de Usuário:</b> verificar se o sistema realiza corretamente a autenticação básica quando um usuário insere um nome de usuário e uma senha válidos e toca no botão "ENTRAR";</li>
+  <li><b>Teste de Recuperação de Senha:</b> verificar se o processo de recuperação de senha é eficaz e intuitivo para os usuários que esqueceram suas senhas;</li>
+  <li><b>Teste de Ativação de Caps Lock:</b> este teste foi conduzido para avaliar o comportamento da aplicação quando um usuário insere a senha com o Caps Lock ativado. O objetivo é garantir que a aplicação forneça feedback apropriado ao usuário quando ele acidentalmente digita a senha em maiúsculas, evitando possíveis problemas de autenticação;</li>
+  <li><b>Teste de Entrada de Espaços:</b> verificar se o sistema trata corretamente espaços adicionais antes e depois do nome de usuário e da senha durante o processo de autenticação.</li>
+</ul>
+
+<h3>⚡ <b>Funcionalidades Sistema:</b></h3>
+<p align="justify">Testes abrangentes foram conduzidos para as funcionalidades gerais da aplicação. Isso inclui a verificação da correta execução das tarefas básicas e o resultado esperado.</p>
+
+<ul>
+  <li><b>Teste de Navegação por Botões:</b> verificar a eficácia da navegação ao utilizar diferentes botões para acessar várias seções da aplicação, como a tela de gerenciamento de estoque ou tela de cadastro de produtos;</li>
+  <li><b>Teste de Cadastro de Informações do Produtos:</b> verificar se o processo de cadastro de produtos funciona corretamente quando o usuário preenche todos os campos necessários e toca no botão de cadastrar;</li>
+  <li><b>Teste de Validação ao Cadastrar Produto:</b> garantir que o sistema valide corretamente a ausência de informções ao cadastrar um novo produto;</li>
+  <li><b>Teste de Edição de Informações do Produto:</b> verificar se o usuário pode selecionar um produto para edição, modificar as informações do produto e salvar as alterações com sucesso;</li>
+  <li><b>Teste de Atualização da Quantidade em Estoque:</b> verificar se o usuário pode selecionar um produto, alterar a quantidade em estoque e salvar as alterações com sucesso.</li>
 </ul>
 
 ## Banco de Dados 🗂️
@@ -124,7 +145,7 @@ Nossa base de dados se resume inicialmente a um arquivo JSON, responsável por a
 ## Recursos inseridos 🧰 (FALTA IMAGENS)
 <p>Tarefas/funcionalidades que ainda precisam ser implementadas na aplicação:</p>
 
-📝 <b>Autorização e Controle de Acesso:</b> adicionar diferentes níveis de permissões para usuários, como administradores e funcionários, e restrinjri o acesso a determinadas funcionalidades com base nessas permissões;
+📝 <b>Autorização e Controle de Acesso:</b> adicionar diferentes níveis de permissões para usuários, como administradores e funcionários, e restringir o acesso a determinadas funcionalidades com base nessas permissões;
 
 📝 <b>Histórico/Log de Alterações no Estoque:</b> registrar um histórico de todas as alterações no estoque, incluindo quem fez a alteração e quando;
 

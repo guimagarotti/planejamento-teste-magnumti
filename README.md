@@ -1,6 +1,6 @@
 # Planejamento de Testes - Gerenciador de Estoque Magnum TI  
 ## Versão: 1.0 
-## Status do Projeto: ⚠️ Espera
+## Status do Projeto: ✔️ Concluído
 
 ## Tópicos
 🔹 Descrição do projeto 
